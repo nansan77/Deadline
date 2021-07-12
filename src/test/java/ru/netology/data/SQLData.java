@@ -8,7 +8,7 @@ import java.sql.*;
 public class SQLData {
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(
-                "jdbc:mysql://192.168.99.100:3306/app", "app", "pass");
+                "jdbc:mysql://192.168.99.100:3306/app", "user", "pass");
     }
 
     public static void dropDataBase() {
